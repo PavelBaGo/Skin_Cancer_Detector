@@ -12,7 +12,8 @@ Plusieurs modèles ont été créés pour la classification des images :
 1. Classification binaire à partir d'une photo :
    Modèle CNN basé sur l'architecture AlexNet qui détermine si un grain de beauté peut être cancéreux ou pas.
 
-![image](https://github.com/PavelBaGo/Skin_Images/assets/105585469/88f0e45d-a458-4c90-833d-6179ccb7c4af)
+<img width="584" alt="image" src="https://github.com/PavelBaGo/Skin_Cancer_Detector/assets/105585469/df34b04e-5191-4e9d-9181-edc81019038d">
+
 
 3. Classification à 7 catégories à partir d'une photo :
    Modèle CCN basé sur l'architecture AlexNet qui détermine le type de grain de beauté.
@@ -20,7 +21,7 @@ Plusieurs modèles ont été créés pour la classification des images :
 4. Classification binaire à partir d'une photo, de l'âge, le sexe et l'endroit où le grain de beauté se trouve dans le corp du patient :
    Modèle CNN basé sur l'architecture AlexNet et modèle AdaBoost pour la métadonnée. Une pondération des deux modèles a été nécessaire pour avoir les meillleurs résultats.
 
-<img width="1079" alt="image" src="https://github.com/PavelBaGo/Skin_Images/assets/105585469/65359259-5dce-46ee-80a8-b54b03b025f5">
+
 
 
 
