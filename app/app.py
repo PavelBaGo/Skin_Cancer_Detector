@@ -91,4 +91,3 @@ if st.button("Analyze Mole"):
         files = {'image': img_file_buffer}
         response = requests.post(API_URL + "/predict_metadata", data=inputs, files={'img': img_bytes})
         st.markdown(response.content.decode('utf-8'))
-        # st.markdown(response.content)
