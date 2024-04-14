@@ -15,13 +15,22 @@ Plusieurs modèles ont été créés pour la classification des images :
 <img width="584" alt="image" src="https://github.com/PavelBaGo/Skin_Cancer_Detector/assets/105585469/df34b04e-5191-4e9d-9181-edc81019038d">
 
 
-3. Classification à 7 catégories à partir d'une photo :
+2. Classification binaire catégories à partir d'une photo :
    Modèle CCN basé sur l'architecture AlexNet qui détermine le type de grain de beauté.
 
-4. Classification binaire à partir d'une photo, de l'âge, le sexe et l'endroit où le grain de beauté se trouve dans le corp du patient :
+3. Classification à sept catégories à partir d'une photo, de l'âge, le sexe et l'endroit où le grain de beauté se trouve dans le corp du patient :
    Modèle CNN basé sur l'architecture AlexNet et modèle AdaBoost pour la métadonnée. Une pondération des deux modèles a été nécessaire pour avoir les meillleurs résultats.
 
+4. Classification à sept catégories
+<img width="1061" alt="image" src="https://github.com/PavelBaGo/Skin_Cancer_Detector/assets/105585469/3aa103a3-bbf4-4e25-8853-4c8378ede42b">
+
+# Résultats
+
+1. Classifications modèles CNN sans prise en compte de la métadonnée
+
+<img width="1003" alt="image" src="https://github.com/PavelBaGo/Skin_Cancer_Detector/assets/105585469/0c788280-c5a0-480d-ab2e-c416265bfecf">
 
 
+2. Classifications CNN et métadonnée
 
-
+<img width="993" alt="image" src="https://github.com/PavelBaGo/Skin_Cancer_Detector/assets/105585469/a797e619-788d-4a4d-933e-71d3d4898d99">
