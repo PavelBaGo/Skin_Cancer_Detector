@@ -49,3 +49,10 @@ Utilisation d'un modèle CNN basé sur l'architecture AlexNet pour déterminer s
 
 Distribué sous la Licence MIT. Voir LICENSE.txt pour plus d'informations.
 
+# Auteurs 
+
+Capucine DARTEIL
+Augouste BOSSUT
+Tomas MIRANDA
+Pavel BAUTISTA
+
