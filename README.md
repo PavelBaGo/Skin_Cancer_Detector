@@ -3,25 +3,34 @@ Projet de reconnaissance de grains de beauté par Intelligence Artificielle.
 
 
 # Description du projet
-Ce projet de fin de formation avait comme objectif de créer un outil permettant d'aider les médecins au moment d'analyser si un grain de beauté peut être cancéreux ou pas. 
-Pour ce faire nous avons travaillé sur plus de 10 000 photos de grains de beautés. En plus de ces photos, nous avions un tableau au format .csv avec le nom des photos et de la métadonnée liée à la photo (âge, sexe du patient, positionnement du grain de beauté dans le corp).
-Dans tout le jeu de données il y a 7 types de grains de beautés : 3 types bénins et 4 malins. Le jeu de données est fortement disproportionné car un type de grains de beauté représent plus de 60% de la donnée. 
+Ce projet de fin de formation visait à développer un outil destiné à aider les médecins dans l'analyse de la malignité des grains de beauté. Pour ce faire, nous avons entrepris l'analyse d'une base de données comprenant plus de 10 000 photos de grains de beauté, accompagnées de métadonnées telles que l'âge et le sexe du patient, ainsi que la localisation du grain de beauté sur le corps, répertoriées dans un tableau au format .csv.
+
+Dans cette base de données, nous avons identifié 7 types de grains de beauté, comprenant 3 types bénins et 4 types malins. Toutefois, il convient de noter une forte disparité entre ces types, un seul représentant plus de 60% des données.
+
+En parallèle, nous avons conçu une interface pour présenter une démonstration ponctuelle de notre outil. Bien que cette interface ne soit actuellement plus accessible en ligne, nous pouvons la remettre en ligne si nécessaire.
+# Base de données
+
+Le jeu de données a été téléchargé directement de Kaggle. 
+Ci-dessous le lien : 
+https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
+
+# Création de modèles
 
 Plusieurs modèles ont été créés pour la classification des images : 
 
 1. Classification binaire à partir d'une photo :
-   Modèle CNN basé sur l'architecture AlexNet qui détermine si un grain de beauté peut être cancéreux ou pas.
+Utilisation d'un modèle CNN basé sur l'architecture AlexNet pour déterminer si un grain de beauté présente un risque de cancer ou non.
 
 <img width="584" alt="image" src="https://github.com/PavelBaGo/Skin_Cancer_Detector/assets/105585469/df34b04e-5191-4e9d-9181-edc81019038d">
 
 
-2. Classification binaire catégories à partir d'une photo :
-   Modèle CCN basé sur l'architecture AlexNet qui détermine le type de grain de beauté.
+2. Classification binaire des catégories à partir d'une photo :
+   Mise en œuvre d'un modèle CNN basé sur l'architecture AlexNet pour identifier le type spécifique de grain de beauté.
 
-3. Classification à sept catégories à partir d'une photo, de l'âge, le sexe et l'endroit où le grain de beauté se trouve dans le corp du patient :
-   Modèle CNN basé sur l'architecture AlexNet et modèle AdaBoost pour la métadonnée. Une pondération des deux modèles a été nécessaire pour avoir les meillleurs résultats.
+3. Classification binaire à partir d'une photo, de l'âge, le sexe et l'endroit où le grain de beauté se trouve dans le corp du patient :
+   Utilisation d'un modèle CNN basé sur l'architecture AlexNet combiné à un modèle AdaBoost pour les métadonnées. Une pondération appropriée des deux modèles a été appliquée pour obtenir les meilleurs résultats.
 
-4. Classification à sept catégories
+4. Classification à sept catégories à partir d'une photo, incluant l'âge, le sexe et l'emplacement du grain de beauté sur le corps du patient
 <img width="1061" alt="image" src="https://github.com/PavelBaGo/Skin_Cancer_Detector/assets/105585469/3aa103a3-bbf4-4e25-8853-4c8378ede42b">
 
 # Résultats
@@ -34,3 +43,9 @@ Plusieurs modèles ont été créés pour la classification des images :
 2. Classifications CNN et métadonnée
 
 <img width="993" alt="image" src="https://github.com/PavelBaGo/Skin_Cancer_Detector/assets/105585469/a797e619-788d-4a4d-933e-71d3d4898d99">
+
+
+# Licence
+
+Distribué sous la Licence MIT. Voir LICENSE.txt pour plus d'informations.
+
