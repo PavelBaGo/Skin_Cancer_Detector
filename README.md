@@ -1,2 +1,2 @@
-# Skin_Cancer_Detector
-Final project
+# Skin_Images
+Final Project
