@@ -1,4 +1,4 @@
-# Skin_Cancer_Detector
+# Skin Cancer Detector
 Projet de reconnaissance de grains de beauté par Intelligence Artificielle.
 
 
